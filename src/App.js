@@ -54,8 +54,12 @@ function App() {
 			</Container>
 			<Container>
 				{heroes.map((value, index) => {
-          return <Hero key={index}><h4>{value}</h4></Hero>
-        })}
+					return (
+						<Hero key={index}>
+							<h4>{value}</h4>
+						</Hero>
+					);
+				})}
 			</Container>
 		</>
 	);

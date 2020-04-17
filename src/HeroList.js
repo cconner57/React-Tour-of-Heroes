@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Heroes = () => {
+const HeroList = () => {
 	return (
 		<>
 			<h2>My Heroes</h2>
@@ -13,4 +13,4 @@ const Heroes = () => {
 	);
 };
 
-export default Heroes;
+export default HeroList;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Hero = ({index, name}) => {
+const HeroDetails = ({index, name}) => {
 	return (
 		<>
 			<h2>{name} details!</h2>
@@ -12,4 +12,4 @@ const Hero = ({index, name}) => {
 	);
 };
 
-export default Hero;
+export default HeroDetails;
