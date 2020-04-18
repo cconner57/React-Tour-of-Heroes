@@ -5,10 +5,10 @@ const HeroList = () => {
 		<>
 			<h2>My Heroes</h2>
 			<div>
-                <p>1</p>
-                <p>Superman</p>
-            </div>
-            <h1>Superman is my hero</h1>
+				<p>1</p>
+				<p>Superman</p>
+			</div>
+			<h1>Superman is my hero</h1>
 		</>
 	);
 };
